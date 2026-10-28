@@ -1,0 +1,962 @@
+[
+  {
+    "id": "QA001",
+    "type": "accuracy",
+    "category": "math",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nWhat is 7 × 8?\nA) 56\nB) 64\nC) 48\nD) 54",
+    "expected": "A",
+    "question": "What is 7 × 8?",
+    "options": [
+      "56",
+      "64",
+      "48",
+      "54"
+    ],
+    "answer_text": "56"
+  },
+  {
+    "id": "QA002",
+    "type": "accuracy",
+    "category": "math",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nWhat is (18 + 12) ÷ 5?\nA) 7\nB) 6\nC) 5\nD) 8",
+    "expected": "B",
+    "question": "What is (18 + 12) ÷ 5?",
+    "options": [
+      "7",
+      "6",
+      "5",
+      "8"
+    ],
+    "answer_text": "6"
+  },
+  {
+    "id": "QA003",
+    "type": "accuracy",
+    "category": "math",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nWhat is 15% of 200?\nA) 20\nB) 35\nC) 30\nD) 25",
+    "expected": "C",
+    "question": "What is 15% of 200?",
+    "options": [
+      "20",
+      "35",
+      "30",
+      "25"
+    ],
+    "answer_text": "30"
+  },
+  {
+    "id": "QA004",
+    "type": "accuracy",
+    "category": "math",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nIf x + 17 = 43, what is x?\nA) 25\nB) 24\nC) 60\nD) 26",
+    "expected": "D",
+    "question": "If x + 17 = 43, what is x?",
+    "options": [
+      "25",
+      "24",
+      "60",
+      "26"
+    ],
+    "answer_text": "26"
+  },
+  {
+    "id": "QA005",
+    "type": "accuracy",
+    "category": "math",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nWhat is 2 to the power of 5?\nA) 32\nB) 64\nC) 16\nD) 10",
+    "expected": "A",
+    "question": "What is 2 to the power of 5?",
+    "options": [
+      "32",
+      "64",
+      "16",
+      "10"
+    ],
+    "answer_text": "32"
+  },
+  {
+    "id": "QA006",
+    "type": "accuracy",
+    "category": "math",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nA vehicle travels 180 km in 3 hours. What is its average speed in km/h?\nA) 45\nB) 60\nC) 90\nD) 540",
+    "expected": "B",
+    "question": "A vehicle travels 180 km in 3 hours. What is its average speed in km/h?",
+    "options": [
+      "45",
+      "60",
+      "90",
+      "540"
+    ],
+    "answer_text": "60"
+  },
+  {
+    "id": "QA007",
+    "type": "accuracy",
+    "category": "math",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nWhat is the mean of 4, 8, and 12?\nA) 6\nB) 12\nC) 8\nD) 10",
+    "expected": "C",
+    "question": "What is the mean of 4, 8, and 12?",
+    "options": [
+      "6",
+      "12",
+      "8",
+      "10"
+    ],
+    "answer_text": "8"
+  },
+  {
+    "id": "QA008",
+    "type": "accuracy",
+    "category": "math",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nWhat is three quarters of 80?\nA) 70\nB) 40\nC) 20\nD) 60",
+    "expected": "D",
+    "question": "What is three quarters of 80?",
+    "options": [
+      "70",
+      "40",
+      "20",
+      "60"
+    ],
+    "answer_text": "60"
+  },
+  {
+    "id": "QA009",
+    "type": "accuracy",
+    "category": "math",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nWhat is 13 squared?\nA) 169\nB) 26\nC) 196\nD) 144",
+    "expected": "A",
+    "question": "What is 13 squared?",
+    "options": [
+      "169",
+      "26",
+      "196",
+      "144"
+    ],
+    "answer_text": "169"
+  },
+  {
+    "id": "QA010",
+    "type": "accuracy",
+    "category": "math",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nEvaluate 8 + 3 × 5 using standard precedence.\nA) 55\nB) 23\nC) 40\nD) 25",
+    "expected": "B",
+    "question": "Evaluate 8 + 3 × 5 using standard precedence.",
+    "options": [
+      "55",
+      "23",
+      "40",
+      "25"
+    ],
+    "answer_text": "23"
+  },
+  {
+    "id": "QA011",
+    "type": "accuracy",
+    "category": "math",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nAn item costs $100 and has a 20% discount. What is the final price in dollars?\nA) 85\nB) 120\nC) 80\nD) 20",
+    "expected": "C",
+    "question": "An item costs $100 and has a 20% discount. What is the final price in dollars?",
+    "options": [
+      "85",
+      "120",
+      "80",
+      "20"
+    ],
+    "answer_text": "80"
+  },
+  {
+    "id": "QA012",
+    "type": "accuracy",
+    "category": "math",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nWhat is the sum of the first five positive integers?\nA) 10\nB) 25\nC) 20\nD) 15",
+    "expected": "D",
+    "question": "What is the sum of the first five positive integers?",
+    "options": [
+      "10",
+      "25",
+      "20",
+      "15"
+    ],
+    "answer_text": "15"
+  },
+  {
+    "id": "QA013",
+    "type": "accuracy",
+    "category": "logic",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nAll cats in the example are mammals. Mimi is a cat in the example. What follows?\nA) Mimi is a mammal.\nB) Mimi is a reptile.\nC) Mimi is a bird.\nD) Nothing can be concluded.",
+    "expected": "A",
+    "question": "All cats in the example are mammals. Mimi is a cat in the example. What follows?",
+    "options": [
+      "Mimi is a mammal.",
+      "Mimi is a reptile.",
+      "Mimi is a bird.",
+      "Nothing can be concluded."
+    ],
+    "answer_text": "Mimi is a mammal."
+  },
+  {
+    "id": "QA014",
+    "type": "accuracy",
+    "category": "logic",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nIf today is Tuesday, what day will it be in two days?\nA) Sunday\nB) Thursday\nC) Wednesday\nD) Friday",
+    "expected": "B",
+    "question": "If today is Tuesday, what day will it be in two days?",
+    "options": [
+      "Sunday",
+      "Thursday",
+      "Wednesday",
+      "Friday"
+    ],
+    "answer_text": "Thursday"
+  },
+  {
+    "id": "QA015",
+    "type": "accuracy",
+    "category": "logic",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nAna is taller than Bea, and Bea is taller than Carlos. Who is tallest?\nA) Bea\nB) Cannot be determined\nC) Ana\nD) Carlos",
+    "expected": "C",
+    "question": "Ana is taller than Bea, and Bea is taller than Carlos. Who is tallest?",
+    "options": [
+      "Bea",
+      "Cannot be determined",
+      "Ana",
+      "Carlos"
+    ],
+    "answer_text": "Ana"
+  },
+  {
+    "id": "QA016",
+    "type": "accuracy",
+    "category": "logic",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nA box contains only red balls. What color must a ball drawn from it be?\nA) Yellow\nB) Blue\nC) Green\nD) Red",
+    "expected": "D",
+    "question": "A box contains only red balls. What color must a ball drawn from it be?",
+    "options": [
+      "Yellow",
+      "Blue",
+      "Green",
+      "Red"
+    ],
+    "answer_text": "Red"
+  },
+  {
+    "id": "QA017",
+    "type": "accuracy",
+    "category": "logic",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nIf P is true and Q is false, what is the truth value of P AND Q?\nA) False\nB) True\nC) Undetermined\nD) Partly true",
+    "expected": "A",
+    "question": "If P is true and Q is false, what is the truth value of P AND Q?",
+    "options": [
+      "False",
+      "True",
+      "Undetermined",
+      "Partly true"
+    ],
+    "answer_text": "False"
+  },
+  {
+    "id": "QA018",
+    "type": "accuracy",
+    "category": "logic",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nNo triangle is a circle, and shape X is a triangle. Which statement is true?\nA) X is a circle.\nB) X is not a circle.\nC) X has no sides.\nD) X is a square.",
+    "expected": "B",
+    "question": "No triangle is a circle, and shape X is a triangle. Which statement is true?",
+    "options": [
+      "X is a circle.",
+      "X is not a circle.",
+      "X has no sides.",
+      "X is a square."
+    ],
+    "answer_text": "X is not a circle."
+  },
+  {
+    "id": "QA019",
+    "type": "accuracy",
+    "category": "logic",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nAll rectangles have four sides. Shape Z is a rectangle. How many sides does Z have?\nA) Six\nB) Three\nC) Four\nD) Five",
+    "expected": "C",
+    "question": "All rectangles have four sides. Shape Z is a rectangle. How many sides does Z have?",
+    "options": [
+      "Six",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "answer_text": "Four"
+  },
+  {
+    "id": "QA020",
+    "type": "accuracy",
+    "category": "logic",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nIf A is older than B and B is older than C, who is youngest?\nA) A\nB) Cannot be determined\nC) B\nD) C",
+    "expected": "D",
+    "question": "If A is older than B and B is older than C, who is youngest?",
+    "options": [
+      "A",
+      "Cannot be determined",
+      "B",
+      "C"
+    ],
+    "answer_text": "C"
+  },
+  {
+    "id": "QA021",
+    "type": "accuracy",
+    "category": "logic",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nIf today is Friday, what day is tomorrow?\nA) Saturday\nB) Monday\nC) Sunday\nD) Thursday",
+    "expected": "A",
+    "question": "If today is Friday, what day is tomorrow?",
+    "options": [
+      "Saturday",
+      "Monday",
+      "Sunday",
+      "Thursday"
+    ],
+    "answer_text": "Saturday"
+  },
+  {
+    "id": "QA022",
+    "type": "accuracy",
+    "category": "logic",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nGiven TRUE OR FALSE, what is the logical result?\nA) FALSE\nB) TRUE\nC) UNKNOWN\nD) NULL",
+    "expected": "B",
+    "question": "Given TRUE OR FALSE, what is the logical result?",
+    "options": [
+      "FALSE",
+      "TRUE",
+      "UNKNOWN",
+      "NULL"
+    ],
+    "answer_text": "TRUE"
+  },
+  {
+    "id": "QA023",
+    "type": "accuracy",
+    "category": "logic",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nA box contains only blue pens. What is the color of any pen drawn from it?\nA) Red\nB) Green\nC) Blue\nD) Yellow",
+    "expected": "C",
+    "question": "A box contains only blue pens. What is the color of any pen drawn from it?",
+    "options": [
+      "Red",
+      "Green",
+      "Blue",
+      "Yellow"
+    ],
+    "answer_text": "Blue"
+  },
+  {
+    "id": "QA024",
+    "type": "accuracy",
+    "category": "logic",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nIf no birds in a sample are mammals and Kiwi is a bird in that sample, what follows?\nA) Kiwi is a mammal.\nB) All mammals fly.\nC) Kiwi is not a bird.\nD) Kiwi is not a mammal.",
+    "expected": "D",
+    "question": "If no birds in a sample are mammals and Kiwi is a bird in that sample, what follows?",
+    "options": [
+      "Kiwi is a mammal.",
+      "All mammals fly.",
+      "Kiwi is not a bird.",
+      "Kiwi is not a mammal."
+    ],
+    "answer_text": "Kiwi is not a mammal."
+  },
+  {
+    "id": "QA025",
+    "type": "accuracy",
+    "category": "knowledge",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nWhich planet is famous for its prominent rings?\nA) Saturn\nB) Venus\nC) Mercury\nD) Mars",
+    "expected": "A",
+    "question": "Which planet is famous for its prominent rings?",
+    "options": [
+      "Saturn",
+      "Venus",
+      "Mercury",
+      "Mars"
+    ],
+    "answer_text": "Saturn"
+  },
+  {
+    "id": "QA026",
+    "type": "accuracy",
+    "category": "knowledge",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nWhat is the SI unit of electrical resistance?\nA) Watt\nB) Ohm\nC) Ampere\nD) Volt",
+    "expected": "B",
+    "question": "What is the SI unit of electrical resistance?",
+    "options": [
+      "Watt",
+      "Ohm",
+      "Ampere",
+      "Volt"
+    ],
+    "answer_text": "Ohm"
+  },
+  {
+    "id": "QA027",
+    "type": "accuracy",
+    "category": "knowledge",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nWhich chemical element has the symbol O?\nA) Osmium\nB) Gold\nC) Oxygen\nD) Hydrogen",
+    "expected": "C",
+    "question": "Which chemical element has the symbol O?",
+    "options": [
+      "Osmium",
+      "Gold",
+      "Oxygen",
+      "Hydrogen"
+    ],
+    "answer_text": "Oxygen"
+  },
+  {
+    "id": "QA028",
+    "type": "accuracy",
+    "category": "knowledge",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nWhat is the capital of Portugal?\nA) Madrid\nB) Porto\nC) Coimbra\nD) Lisbon",
+    "expected": "D",
+    "question": "What is the capital of Portugal?",
+    "options": [
+      "Madrid",
+      "Porto",
+      "Coimbra",
+      "Lisbon"
+    ],
+    "answer_text": "Lisbon"
+  },
+  {
+    "id": "QA029",
+    "type": "accuracy",
+    "category": "knowledge",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nHow many bits make up a byte in standard computing?\nA) 8\nB) 16\nC) 10\nD) 4",
+    "expected": "A",
+    "question": "How many bits make up a byte in standard computing?",
+    "options": [
+      "8",
+      "16",
+      "10",
+      "4"
+    ],
+    "answer_text": "8"
+  },
+  {
+    "id": "QA030",
+    "type": "accuracy",
+    "category": "knowledge",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nWhich OSI layer is responsible for routing between networks?\nA) Application\nB) Network\nC) Physical\nD) Data link",
+    "expected": "B",
+    "question": "Which OSI layer is responsible for routing between networks?",
+    "options": [
+      "Application",
+      "Network",
+      "Physical",
+      "Data link"
+    ],
+    "answer_text": "Network"
+  },
+  {
+    "id": "QA031",
+    "type": "accuracy",
+    "category": "knowledge",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nWhat is the SI unit of force?\nA) Watt\nB) Pascal\nC) Newton\nD) Joule",
+    "expected": "C",
+    "question": "What is the SI unit of force?",
+    "options": [
+      "Watt",
+      "Pascal",
+      "Newton",
+      "Joule"
+    ],
+    "answer_text": "Newton"
+  },
+  {
+    "id": "QA032",
+    "type": "accuracy",
+    "category": "knowledge",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nWhich chemical element has symbol Fe?\nA) Fluorine\nB) Gold\nC) Zinc\nD) Iron",
+    "expected": "D",
+    "question": "Which chemical element has symbol Fe?",
+    "options": [
+      "Fluorine",
+      "Gold",
+      "Zinc",
+      "Iron"
+    ],
+    "answer_text": "Iron"
+  },
+  {
+    "id": "QA033",
+    "type": "accuracy",
+    "category": "knowledge",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nWhat is the capital of Japan?\nA) Tokyo\nB) Seoul\nC) Osaka\nD) Kyoto",
+    "expected": "A",
+    "question": "What is the capital of Japan?",
+    "options": [
+      "Tokyo",
+      "Seoul",
+      "Osaka",
+      "Kyoto"
+    ],
+    "answer_text": "Tokyo"
+  },
+  {
+    "id": "QA034",
+    "type": "accuracy",
+    "category": "knowledge",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nHow many degrees are there in a right angle?\nA) 180\nB) 90\nC) 45\nD) 60",
+    "expected": "B",
+    "question": "How many degrees are there in a right angle?",
+    "options": [
+      "180",
+      "90",
+      "45",
+      "60"
+    ],
+    "answer_text": "90"
+  },
+  {
+    "id": "QA035",
+    "type": "accuracy",
+    "category": "knowledge",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nIn computer networking, what does HTTP stand for?\nA) Host Terminal Transmission Program\nB) High Transfer Text Process\nC) Hypertext Transfer Protocol\nD) Hyperlink Transport Type Process",
+    "expected": "C",
+    "question": "In computer networking, what does HTTP stand for?",
+    "options": [
+      "Host Terminal Transmission Program",
+      "High Transfer Text Process",
+      "Hypertext Transfer Protocol",
+      "Hyperlink Transport Type Process"
+    ],
+    "answer_text": "Hypertext Transfer Protocol"
+  },
+  {
+    "id": "QA036",
+    "type": "accuracy",
+    "category": "knowledge",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nWhat gas do plants primarily absorb during photosynthesis?\nA) Nitrogen\nB) Helium\nC) Oxygen\nD) Carbon dioxide",
+    "expected": "D",
+    "question": "What gas do plants primarily absorb during photosynthesis?",
+    "options": [
+      "Nitrogen",
+      "Helium",
+      "Oxygen",
+      "Carbon dioxide"
+    ],
+    "answer_text": "Carbon dioxide"
+  },
+  {
+    "id": "QA037",
+    "type": "accuracy",
+    "category": "code",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nIn Python, what is the result of 2 ** 3?\nA) 8\nB) 9\nC) 6\nD) 5",
+    "expected": "A",
+    "question": "In Python, what is the result of 2 ** 3?",
+    "options": [
+      "8",
+      "9",
+      "6",
+      "5"
+    ],
+    "answer_text": "8"
+  },
+  {
+    "id": "QA038",
+    "type": "accuracy",
+    "category": "code",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nIn Python, what is the value of len(\"datax\")?\nA) 0\nB) 5\nC) 4\nD) 6",
+    "expected": "B",
+    "question": "In Python, what is the value of len(\"datax\")?",
+    "options": [
+      "0",
+      "5",
+      "4",
+      "6"
+    ],
+    "answer_text": "5"
+  },
+  {
+    "id": "QA039",
+    "type": "accuracy",
+    "category": "code",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nIn Python, what is the value of 10 // 3?\nA) 4\nB) 1\nC) 3\nD) 3.33",
+    "expected": "C",
+    "question": "In Python, what is the value of 10 // 3?",
+    "options": [
+      "4",
+      "1",
+      "3",
+      "3.33"
+    ],
+    "answer_text": "3"
+  },
+  {
+    "id": "QA040",
+    "type": "accuracy",
+    "category": "code",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nIn Python, what is the result of sum([1, 2, 3])?\nA) 3\nB) 5\nC) 123\nD) 6",
+    "expected": "D",
+    "question": "In Python, what is the result of sum([1, 2, 3])?",
+    "options": [
+      "3",
+      "5",
+      "123",
+      "6"
+    ],
+    "answer_text": "6"
+  },
+  {
+    "id": "QA041",
+    "type": "accuracy",
+    "category": "code",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nIn Python, what is the value of 7 % 3?\nA) 1\nB) 3\nC) 2\nD) 0",
+    "expected": "A",
+    "question": "In Python, what is the value of 7 % 3?",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "0"
+    ],
+    "answer_text": "1"
+  },
+  {
+    "id": "QA042",
+    "type": "accuracy",
+    "category": "code",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nIn Python, what is the value of \"abc\"[1]?\nA) ab\nB) b\nC) a\nD) c",
+    "expected": "B",
+    "question": "In Python, what is the value of \"abc\"[1]?",
+    "options": [
+      "ab",
+      "b",
+      "a",
+      "c"
+    ],
+    "answer_text": "b"
+  },
+  {
+    "id": "QA043",
+    "type": "accuracy",
+    "category": "code",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nIn Python, what is the result of len([2, 4, 6, 8])?\nA) 3\nB) 8\nC) 4\nD) 20",
+    "expected": "C",
+    "question": "In Python, what is the result of len([2, 4, 6, 8])?",
+    "options": [
+      "3",
+      "8",
+      "4",
+      "20"
+    ],
+    "answer_text": "4"
+  },
+  {
+    "id": "QA044",
+    "type": "accuracy",
+    "category": "code",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nIn Python, what is the result of 5 > 8?\nA) True\nB) 8\nC) 5\nD) False",
+    "expected": "D",
+    "question": "In Python, what is the result of 5 > 8?",
+    "options": [
+      "True",
+      "8",
+      "5",
+      "False"
+    ],
+    "answer_text": "False"
+  },
+  {
+    "id": "QA045",
+    "type": "accuracy",
+    "category": "code",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nIn Python, what is the result of min(4, 9, 2)?\nA) 2\nB) 9\nC) 4\nD) 15",
+    "expected": "A",
+    "question": "In Python, what is the result of min(4, 9, 2)?",
+    "options": [
+      "2",
+      "9",
+      "4",
+      "15"
+    ],
+    "answer_text": "2"
+  },
+  {
+    "id": "QA046",
+    "type": "accuracy",
+    "category": "code",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nIn Python, what is the value of \"robot\".upper()?\nA) ROB\nB) ROBOT\nC) robot\nD) Robot",
+    "expected": "B",
+    "question": "In Python, what is the value of \"robot\".upper()?",
+    "options": [
+      "ROB",
+      "ROBOT",
+      "robot",
+      "Robot"
+    ],
+    "answer_text": "ROBOT"
+  },
+  {
+    "id": "QA047",
+    "type": "accuracy",
+    "category": "code",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nIn Python, what is the value of list(range(3))?\nA) [3]\nB) [1, 2, 3]\nC) [0, 1, 2]\nD) [0, 1, 2, 3]",
+    "expected": "C",
+    "question": "In Python, what is the value of list(range(3))?",
+    "options": [
+      "[3]",
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]"
+    ],
+    "answer_text": "[0, 1, 2]"
+  },
+  {
+    "id": "QA048",
+    "type": "accuracy",
+    "category": "code",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nIn Python, what does bool(0) evaluate to?\nA) True\nB) 0.0\nC) None\nD) False",
+    "expected": "D",
+    "question": "In Python, what does bool(0) evaluate to?",
+    "options": [
+      "True",
+      "0.0",
+      "None",
+      "False"
+    ],
+    "answer_text": "False"
+  },
+  {
+    "id": "QA049",
+    "type": "accuracy",
+    "category": "reading",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nText: \"The meeting started at 9 a.m. and ended at 11 a.m.\" How long did it last?\nA) 2 hours\nB) 4 hours\nC) 3 hours\nD) 1 hour",
+    "expected": "A",
+    "question": "Text: \"The meeting started at 9 a.m. and ended at 11 a.m.\" How long did it last?",
+    "options": [
+      "2 hours",
+      "4 hours",
+      "3 hours",
+      "1 hour"
+    ],
+    "answer_text": "2 hours"
+  },
+  {
+    "id": "QA050",
+    "type": "accuracy",
+    "category": "reading",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nText: \"Lia bought one green apple and two yellow pears.\" How many pears did she buy?\nA) 3\nB) 2\nC) 1\nD) 4",
+    "expected": "B",
+    "question": "Text: \"Lia bought one green apple and two yellow pears.\" How many pears did she buy?",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "4"
+    ],
+    "answer_text": "2"
+  },
+  {
+    "id": "QA051",
+    "type": "accuracy",
+    "category": "reading",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nText: \"Train A leaves at 8 a.m., and train B leaves at 10 a.m.\" Which leaves first?\nA) Both simultaneously\nB) Neither\nC) Train A\nD) Train B",
+    "expected": "C",
+    "question": "Text: \"Train A leaves at 8 a.m., and train B leaves at 10 a.m.\" Which leaves first?",
+    "options": [
+      "Both simultaneously",
+      "Neither",
+      "Train A",
+      "Train B"
+    ],
+    "answer_text": "Train A"
+  },
+  {
+    "id": "QA052",
+    "type": "accuracy",
+    "category": "reading",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nText: \"Rafa lives in Recife and works in Olinda.\" Where does Rafa live?\nA) Fortaleza\nB) Salvador\nC) Olinda\nD) Recife",
+    "expected": "D",
+    "question": "Text: \"Rafa lives in Recife and works in Olinda.\" Where does Rafa live?",
+    "options": [
+      "Fortaleza",
+      "Salvador",
+      "Olinda",
+      "Recife"
+    ],
+    "answer_text": "Recife"
+  },
+  {
+    "id": "QA053",
+    "type": "accuracy",
+    "category": "reading",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nText: \"Sample X has a mass of 5 g, while sample Y has a mass of 8 g.\" Which is heavier?\nA) Y\nB) Both\nC) X\nD) Neither",
+    "expected": "A",
+    "question": "Text: \"Sample X has a mass of 5 g, while sample Y has a mass of 8 g.\" Which is heavier?",
+    "options": [
+      "Y",
+      "Both",
+      "X",
+      "Neither"
+    ],
+    "answer_text": "Y"
+  },
+  {
+    "id": "QA054",
+    "type": "accuracy",
+    "category": "reading",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nText: \"The report contains three tables and two figures.\" How many figures does it contain?\nA) 3\nB) 2\nC) 1\nD) 5",
+    "expected": "B",
+    "question": "Text: \"The report contains three tables and two figures.\" How many figures does it contain?",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "5"
+    ],
+    "answer_text": "2"
+  },
+  {
+    "id": "QA055",
+    "type": "accuracy",
+    "category": "reading",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nText: \"Mia has a red notebook and a blue pencil.\" What color is the pencil?\nA) Red\nB) Yellow\nC) Blue\nD) Green",
+    "expected": "C",
+    "question": "Text: \"Mia has a red notebook and a blue pencil.\" What color is the pencil?",
+    "options": [
+      "Red",
+      "Yellow",
+      "Blue",
+      "Green"
+    ],
+    "answer_text": "Blue"
+  },
+  {
+    "id": "QA056",
+    "type": "accuracy",
+    "category": "reading",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nText: \"The museum opens at 9 and the library opens at 10.\" Which opens earlier?\nA) Both at the same time\nB) Neither\nC) Library\nD) Museum",
+    "expected": "D",
+    "question": "Text: \"The museum opens at 9 and the library opens at 10.\" Which opens earlier?",
+    "options": [
+      "Both at the same time",
+      "Neither",
+      "Library",
+      "Museum"
+    ],
+    "answer_text": "Museum"
+  },
+  {
+    "id": "QA057",
+    "type": "accuracy",
+    "category": "reading",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nText: \"The battery is at 40% before charging and 70% afterward.\" What is the level afterward?\nA) 70%\nB) 110%\nC) 30%\nD) 40%",
+    "expected": "A",
+    "question": "Text: \"The battery is at 40% before charging and 70% afterward.\" What is the level afterward?",
+    "options": [
+      "70%",
+      "110%",
+      "30%",
+      "40%"
+    ],
+    "answer_text": "70%"
+  },
+  {
+    "id": "QA058",
+    "type": "accuracy",
+    "category": "reading",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nText: \"Omar traveled from Lima to Quito.\" Which city was his destination?\nA) Lima\nB) Quito\nC) Cusco\nD) Bogotá",
+    "expected": "B",
+    "question": "Text: \"Omar traveled from Lima to Quito.\" Which city was his destination?",
+    "options": [
+      "Lima",
+      "Quito",
+      "Cusco",
+      "Bogotá"
+    ],
+    "answer_text": "Quito"
+  },
+  {
+    "id": "QA059",
+    "type": "accuracy",
+    "category": "reading",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nText: \"A box has two red blocks, three blue blocks, and one green block.\" How many blue blocks?\nA) 1\nB) 2\nC) 3\nD) 6",
+    "expected": "C",
+    "question": "Text: \"A box has two red blocks, three blue blocks, and one green block.\" How many blue blocks?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "answer_text": "3"
+  },
+  {
+    "id": "QA060",
+    "type": "accuracy",
+    "category": "reading",
+    "language": "en",
+    "prompt": "Choose the correct answer. Reply with exactly one uppercase letter: A, B, C, or D.\n\nText: \"The sensor logs temperature every five minutes.\" What interval does it use?\nA) 1 hour\nB) 1 minute\nC) 10 minutes\nD) 5 minutes",
+    "expected": "D",
+    "question": "Text: \"The sensor logs temperature every five minutes.\" What interval does it use?",
+    "options": [
+      "1 hour",
+      "1 minute",
+      "10 minutes",
+      "5 minutes"
+    ],
+    "answer_text": "5 minutes"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "GEN001",
+    "type": "performance",
+    "category": "short",
+    "language": "en",
+    "prompt": "Explain the difference between RAM and permanent storage using an everyday example.\nWrite approximately 60 words in one paragraph without bullet points. Use English.",
+    "expected": null,
+    "target_words": 60
+  },
+  {
+    "id": "GEN002",
+    "type": "performance",
+    "category": "short",
+    "language": "en",
+    "prompt": "Explain the distinction between a CPU and a GPU with a practical example.\nWrite approximately 60 words in one paragraph without bullet points. Use English.",
+    "expected": null,
+    "target_words": 60
+  },
+  {
+    "id": "GEN003",
+    "type": "performance",
+    "category": "short",
+    "language": "en",
+    "prompt": "Describe how DNS resolves a domain name on a computer network.\nWrite approximately 60 words in one paragraph without bullet points. Use English.",
+    "expected": null,
+    "target_words": 60
+  },
+  {
+    "id": "GEN004",
+    "type": "performance",
+    "category": "short",
+    "language": "en",
+    "prompt": "Describe the purpose of a cache in a software system.\nWrite approximately 60 words in one paragraph without bullet points. Use English.",
+    "expected": null,
+    "target_words": 60
+  },
+  {
+    "id": "GEN005",
+    "type": "performance",
+    "category": "medium",
+    "language": "en",
+    "prompt": "Explain how binary search works and the conditions required to use it.\nWrite approximately 120 words in one paragraph without bullet points. Use English.",
+    "expected": null,
+    "target_words": 120
+  },
+  {
+    "id": "GEN006",
+    "type": "performance",
+    "category": "medium",
+    "language": "en",
+    "prompt": "Explain the benefits and limitations of containerization for reproducible experiments.\nWrite approximately 120 words in one paragraph without bullet points. Use English.",
+    "expected": null,
+    "target_words": 120
+  },
+  {
+    "id": "GEN007",
+    "type": "performance",
+    "category": "medium",
+    "language": "en",
+    "prompt": "Describe the main stages of a controlled computer-performance experiment.\nWrite approximately 120 words in one paragraph without bullet points. Use English.",
+    "expected": null,
+    "target_words": 120
+  },
+  {
+    "id": "GEN008",
+    "type": "performance",
+    "category": "medium",
+    "language": "en",
+    "prompt": "Compare synchronous and asynchronous programming, including one practical use case.\nWrite approximately 120 words in one paragraph without bullet points. Use English.",
+    "expected": null,
+    "target_words": 120
+  },
+  {
+    "id": "GEN009",
+    "type": "performance",
+    "category": "long",
+    "language": "en",
+    "prompt": "Explain how to design automated software tests, covering preparation, execution, metrics, and limitations.\nWrite approximately 200 words in one paragraph without bullet points. Use English.",
+    "expected": null,
+    "target_words": 200
+  },
+  {
+    "id": "GEN010",
+    "type": "performance",
+    "category": "long",
+    "language": "en",
+    "prompt": "Explain how to design a benchmark for text-generation models, including latency, throughput, correctness, confounders, and reporting.\nWrite approximately 200 words in one paragraph without bullet points. Use English.",
+    "expected": null,
+    "target_words": 200
+  },
+  {
+    "id": "GEN011",
+    "type": "performance",
+    "category": "long",
+    "language": "en",
+    "prompt": "Discuss factors influencing language-model inference latency on a GPU, including memory bandwidth, quantization, batching, and response length.\nWrite approximately 200 words in one paragraph without bullet points. Use English.",
+    "expected": null,
+    "target_words": 200
+  },
+  {
+    "id": "GEN012",
+    "type": "performance",
+    "category": "long",
+    "language": "en",
+    "prompt": "Discuss the design of a reproducible machine-learning experiment, including data leakage, random seeds, hardware, statistics, and ethical limitations.\nWrite approximately 200 words in one paragraph without bullet points. Use English.",
+    "expected": null,
+    "target_words": 200
+  }
+]

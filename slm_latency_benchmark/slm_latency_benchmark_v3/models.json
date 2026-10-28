@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Llama 3.1 8B Instruct",
+    "ollama": "llama3.1:8b",
+    "openrouter": "meta-llama/llama-3.1-8b-instruct",
+    "think": null,
+    "provider": "",
+    "system_prompt": "Answer in English. For multiple-choice questions, return only the single correct uppercase letter A, B, C, or D. For generation requests, follow the specified response length."
+  },
+  {
+    "name": "Llama 3.1 Nemotron Nano 8B v1",
+    "ollama": "Randomblock1/nemotron-nano:8b-instruct-q4_K_M",
+    "openrouter": "nvidia/llama-3.1-nemotron-nano-8b-v1:free",
+    "think": null,
+    "provider": "",
+    "system_prompt": "detailed thinking off"
+  },
+  {
+    "name": "Ministral 3 8B",
+    "ollama": "ministral-3:8b",
+    "openrouter": "mistralai/ministral-8b-2512",
+    "think": null,
+    "provider": "",
+    "system_prompt": "Answer in English. For multiple-choice questions, return only the single correct uppercase letter A, B, C, or D. For generation requests, follow the specified response length."
+  },
+  {
+    "name": "Qwen3 8B",
+    "ollama": "qwen3:8b",
+    "openrouter": "qwen/qwen3-8b",
+    "think": false,
+    "provider": "",
+    "system_prompt": "Answer in English. /no_think. For multiple-choice questions, return only the single correct uppercase letter A, B, C, or D. For generation requests, follow the specified response length."
+  }
+]

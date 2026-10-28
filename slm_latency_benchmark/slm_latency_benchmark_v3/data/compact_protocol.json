@@ -1,0 +1,23 @@
+{
+  "name": "compact-english-latency-12-v3",
+  "purpose": "Economical matched-model client-side GPU-local versus remote latency pilot. English-only prompts and outputs.",
+  "question_ids": [
+    "QA001",
+    "QA008",
+    "QA013",
+    "QA032",
+    "QA037",
+    "QA056"
+  ],
+  "generation_ids": [
+    "GEN001",
+    "GEN002",
+    "GEN005",
+    "GEN006",
+    "GEN009",
+    "GEN010"
+  ],
+  "remote_requests_measured": 96,
+  "remote_requests_warmup": 4,
+  "note": "4 models \u00d7 12 English prompts \u00d7 2 repetitions = 96 measured remote requests, plus 4 remote warmups = 100 total attempts, subject to endpoint availability and skipping."
+}
