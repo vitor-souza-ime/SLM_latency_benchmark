@@ -291,7 +291,7 @@ For stronger robotics-focused evidence, future studies should include Jetson-bas
 
 Maintained by [@vitor-souza-ime](https://github.com/vitor-souza-ime).
 
-If you use the benchmark code or dataset in academic work, please link to this repository and cite the associated scientific article once its bibliographic details and DOI are available. **No publication DOI is claimed here.**
+If you use the benchmark code or dataset in academic work, please link to this repository and cite the associated scientific article once its bibliographic details and DOI are available. 
 
 ---
 
